@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: drawing\n"
 "Report-Msgid-Bugs-To: github.com/maoschanz/drawing/issues/new/choose\n"
 "POT-Creation-Date: 2022-05-21 23:53+0200\n"
-"PO-Revision-Date: 2022-08-19 14:11+0530\n"
+"PO-Revision-Date: 2022-08-19 19:34+0530\n"
 "Last-Translator: Sujal Singh <email.sujalsingh@gmail.com>\n"
 "Language-Team: Hindi <>\n"
 "Language: hi\n"
@@ -361,7 +361,7 @@ msgstr "कैमरे को सर्वोत्तम स्थान प�
 #: src/optionsbars/transform/optionsbar-scale.ui
 #: src/optionsbars/transform/optionsbar-skew.ui
 msgid "Zoom Out"
-msgstr "कैमरे को कैनवास के नजदीक लाएं"
+msgstr "कैमरे को कैनवास से दूर लाएं"
 
 #: src/ui/app-menus.ui src/ui/shortcuts.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/optionsbars/transform/optionsbar-crop.ui
@@ -375,7 +375,7 @@ msgstr "कैमरे को प्रारंभिक स्थान प�
 #: src/optionsbars/transform/optionsbar-scale.ui
 #: src/optionsbars/transform/optionsbar-skew.ui
 msgid "Zoom In"
-msgstr "कैमरे को कैनवास से दूर लाएं"
+msgstr "कैमरे को कैनवास के नजदीक लाएं"
 
 #. Context: this submenu is about moving the view to the
 #. left/right/top/bottom
@@ -552,11 +552,11 @@ msgstr ""
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-operator-menus.ui
 msgid "Difference"
-msgstr ""
+msgstr "अंतर"
 
 #: src/ui/app-menus.ui
 msgid "Don't use the colors but…"
-msgstr ""
+msgstr "रंगों का प्रयोग न करें लेकिन"
 
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar_color_popover.py
 #: src/optionsbars/classic/optionsbar-color-popover.ui
@@ -626,7 +626,7 @@ msgstr "सूचि"
 #. Context: submenu listing individual help pages
 #: src/ui/app-menus.ui
 msgid "Individual pages"
-msgstr ""
+msgstr "प्रत्येक के लिए सहायता पृष्ठ"
 
 #. Context: open the help page about general use of the app
 #: src/ui/app-menus.ui
@@ -635,30 +635,30 @@ msgstr "मूल सहायता"
 
 #: src/ui/app-menus.ui src/ui/minimap.ui
 msgid "Help about zooming"
-msgstr ""
+msgstr "कैमरे के स्थान से संबंधित सहायता"
 
 #: src/ui/app-menus.ui
 msgid "Help about the full-screen mode"
-msgstr ""
+msgstr "पूर्ण-स्क्रीन उपयोग के बारे में सहायता"
 
 #: src/ui/app-menus.ui
 msgid "Help about classic tools"
-msgstr ""
+msgstr "पुराने औजारों के बारे में सहायता"
 
 #: src/ui/app-menus.ui src/optionsbars/classic/optionsbar-color-popover.ui
 msgid "Help about colors"
-msgstr ""
+msgstr "पुराने औजारों के बारे में सहायता"
 
 #. Context: open the help page about transformation tools (crop,
 #. scale, rotate, filters, ...
 #: src/ui/app-menus.ui
 #: src/optionsbars/transform/abstract-optionsbar-transform.ui
 msgid "Help about transformation tools"
-msgstr ""
+msgstr "परिवर्तन करने वाले औजारों के बारे में सहायता"
 
 #: src/ui/app-menus.ui src/optionsbars/selection/optionsbar-selection.ui
 msgid "Help about selection"
-msgstr ""
+msgstr "सिलेक्शन के बारे में सहायता"
 
 #: src/ui/app-menus.ui
 msgid "What's new"
@@ -666,7 +666,7 @@ msgstr "नया चीजें"
 
 #: src/ui/app-menus.ui src/ui/win-menus.ui
 msgid "About Drawing"
-msgstr ""
+msgstr "रेखांकन के बारे में"
 
 #: src/ui/headerbar.ui src/ui/headerbar-eos.ui src/ui/toolbar.ui
 #: src/ui/toolbar-symbolic.ui src/window.py
@@ -679,7 +679,7 @@ msgstr "इमेज को प्रसारित करें"
 
 #: src/ui/image.ui
 msgid "The image changed on the disk, do you want to reload it?"
-msgstr ""
+msgstr "इमेज बदल गई है, क्या आप बदली हुई इमेज को खोलना चाहते हैं?"
 
 #: src/ui/image.ui
 msgid "Reload"
@@ -818,11 +818,11 @@ msgstr "इमेज"
 
 #: src/ui/shortcuts.ui src/window.py
 msgid "Open a picture"
-msgstr ""
+msgstr "इमेज खोलें"
 
 #: src/ui/shortcuts.ui
 msgid "Reload image from disk"
-msgstr ""
+msgstr "इमेज को दोबारा लोड करें"
 
 #: src/ui/shortcuts.ui src/saving_manager.py
 msgid "Save picture as…"
@@ -964,11 +964,11 @@ msgstr ""
 
 #: src/main.py
 msgid "This version isn't stable!"
-msgstr ""
+msgstr "इस संस्करण में समस्याएं हो सकती है"
 
 #: src/main.py
 msgid "Report bugs or ideas"
-msgstr ""
+msgstr "समस्या या विचारों की रिपोर्ट करें"
 
 #. To tranlators: "translate" this by a list of your names (one name
 #. per line), they will be displayed in the "about" dialog
@@ -1427,7 +1427,7 @@ msgstr ""
 
 #: src/window.py
 msgid "Press F11 to exit fullscreen."
-msgstr ""
+msgstr "पूर्ण -स्क्रीन का उपयोग रद्द करने के लिए F11 दबाएँ"
 
 #: src/window.py
 #, python-format
